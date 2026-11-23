@@ -107,7 +107,7 @@ public String obterSituacao() {
     if (concluida) {
         return "CONCLUÍDA";
     } else if (emAndamento) {
-        return "EM ANDAMENTO";
+        return "EM ANDAMENTO.";
     } else {
         return "PENDENTE";
     }
