@@ -1,0 +1,3 @@
+javac -d out src\br\com\curso\tarefas\dominio\*.java src\br\com\curso\tarefas\AplicacaoGestorTarefas.java
+
+java -cp out br.com.curso.tarefas.AplicacaoGestorTarefas

@@ -1,0 +1,46 @@
+Tarefa
+- código V
+- título
+- descrição
+- estimativa de horas
+- concluída
+- data-limite
+- custo estimado
+- responsável
+
+Responsavel
+- matrícula
+- nome
+- ativo
+
+AplicacaoGestorTarefas
+- iniciar o programa
+- criar os objetos iniciais
+
+[F ] codigo deve ser int porque contém algarismos.
+[V ] codigo pode ser String porque é um identificador.
+[V ] estimativaHoras pode ser int porque representa uma quantidade inteira.
+[V ] concluida pode ser boolean porque possui os estados true e false.
+[F ] String titulo cria automaticamente um limite de 100 caracteres.
+
+Decisão: os tipos foram escolhidos pelo significado das informações,
+e não apenas pela aparência do valor ou pelo formato usado em COBOL.
+
+new Tarefa() cria um novo objeto.
+tarefaSelecionada = tarefaRevisarRequisitos copia a referência.
+
+Classe: AplicacaoGestorTarefas
+Pacote: br.com.curso.tarefas
+Responsabilidade: iniciar o programa e criar os objetos iniciais
+
+Classe: Tarefa
+Pacote: br.com.curso.tarefas.dominio
+Responsabilidade: representar uma tarefa
+
+Classe: Responsavel
+Pacote: br.com.curso.tarefas.dominio
+Responsabilidade: representar uma pessoa responsável
+
+br.com.curso.tarefas.AplicacaoGestorTarefas
+br.com.curso.tarefas.dominio.Tarefa
+br.com.curso.tarefas.dominio.Responsavel
