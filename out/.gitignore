@@ -1,9 +1,0 @@
-# Resultado da compilacao
-out/
-*.class
-
-# Logs
-*.log
-
-# Configuracoes locais do VS Code
-.vscode/
